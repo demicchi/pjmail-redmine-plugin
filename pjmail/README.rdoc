@@ -1,3 +1,4 @@
 = pjmail
 
-Description goes here
+This plugin adds a field to show a link to PJMail-php[https://github.com/demicchi/pjmail-php] for each ticket.
+Tested with Redmine 5.1.1.
