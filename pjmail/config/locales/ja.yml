@@ -1,0 +1,7 @@
+ja:
+  field_pjmail_url: PJMail URL
+  text_pjmail_url: 例. https://[ドメイン名]/show_mail.php
+  field_pjmail_separator: プロジェクト識別子とチケット番号を分割するセパレータ
+  text_pjmail_separator: 通常はハイフン1文字（-）を用います
+  field_pjmail_domain: PJMailのメールドメイン名
+  text_pjmail_domain: 例. my-awesome-project.com

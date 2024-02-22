@@ -1,3 +1,7 @@
-# English strings go here for Rails i18n
 en:
-  # my_label: "My label"
+  field_pjmail_url: PJMail URL
+  text_pjmail_url: ex. https://[your domain name]/show_mail.php
+  field_pjmail_separator: The separator to divide the project identifier and the ticket number
+  text_pjmail_separator: use one hyphen(-) normally
+  field_pjmail_domain: Mail domain name for PJMail
+  text_pjmail_domain: ex. my-awesome-project.com

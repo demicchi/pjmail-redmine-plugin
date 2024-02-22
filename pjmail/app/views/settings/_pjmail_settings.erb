@@ -1,28 +1,21 @@
-<table>
-  <tbody>
-    <tr>
-      <th>PJMail URL</th>
-      <td>
-        <input type="text" size=100 id="settings_pjmail_url" 
-                           value="<%= settings['pjmail_url'] %>" 
-                           name="settings[pjmail_url]" >
-      </td>
-    </tr>
-    <tr>
-      <th>separator to divide the project name and the ticket number</th>
-      <td>
-        <input type="text" size=100 id="settings_pjmail_separator"
-               value="<%= settings['pjmail_separator'] %>"
-               name="settings[pjmail_separator]" >
-      </td>
-    </tr>
-    <tr>
-      <th>mail domain name</th>
-      <td>
-        <input type="text" size=100 id="settings_pjmail_domain"
-               value="<%= settings['pjmail_domain'] %>"
-               name="settings[pjmail_domain]" >
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p>
+  <%= label_tag 'settings_pjmail_url', l(:field_pjmail_url) %>
+  <%= text_field_tag 'settings[pjmail_url]', @settings['pjmail_url'], :size => 150 %>
+  <em class="info small">
+    <%= l(:text_pjmail_url) %>
+  </em>
+</p>
+<p>
+  <%= label_tag 'settings_pjmail_separator', l(:field_pjmail_separator) %>
+  <%= text_field_tag 'settings[pjmail_separator]', @settings['pjmail_separator'], :size => 30 %>
+  <em class="info small">
+    <%= l(:text_pjmail_separator) %>
+  </em>
+</p>
+<p>
+  <%= label_tag 'settings_pjmail_domain', l(:field_pjmail_domain) %>
+  <%= text_field_tag 'settings[pjmail_domain]', @settings['pjmail_domain'], :size => 100 %>
+  <em class="info small">
+    <%= l(:text_pjmail_domain) %>
+  </em>
+</p>
