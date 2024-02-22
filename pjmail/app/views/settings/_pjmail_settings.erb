@@ -1,20 +1,20 @@
 <p>
   <%= label_tag 'settings_pjmail_url', l(:field_pjmail_url) %>
-  <%= text_field_tag 'settings[pjmail_url]', @settings['pjmail_url'], :size => 150 %>
+  <%= text_field_tag 'settings[pjmail_url]', @settings['pjmail_url'], :size => 100 %>
   <em class="info small">
     <%= l(:text_pjmail_url) %>
   </em>
 </p>
 <p>
   <%= label_tag 'settings_pjmail_separator', l(:field_pjmail_separator) %>
-  <%= text_field_tag 'settings[pjmail_separator]', @settings['pjmail_separator'], :size => 30 %>
+  <%= text_field_tag 'settings[pjmail_separator]', @settings['pjmail_separator'], :size => 10 %>
   <em class="info small">
     <%= l(:text_pjmail_separator) %>
   </em>
 </p>
 <p>
   <%= label_tag 'settings_pjmail_domain', l(:field_pjmail_domain) %>
-  <%= text_field_tag 'settings[pjmail_domain]', @settings['pjmail_domain'], :size => 100 %>
+  <%= text_field_tag 'settings[pjmail_domain]', @settings['pjmail_domain'], :size => 50 %>
   <em class="info small">
     <%= l(:text_pjmail_domain) %>
   </em>
